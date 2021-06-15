@@ -1,0 +1,26 @@
+// Variables
+
+@font-face {
+  font-family: 'Caros Soft';
+  src: url(./fonts/caros-soft.woff);
+}
+@font-face {
+  font-family: 'Caros Soft Medium';
+  src: url(./fonts/caros-soft-medium.woff);
+}
+
+// Color
+$primary-color: #f27264;
+$secondary-color: #ffffff;
+$dark: #2d2d2d;
+$charcoal: #384248;
+
+$text-primary: #f27264;
+$text-light: #ffffff;
+$text-medium: #505862;
+
+// Fonts
+$nunito: 'Nunito', sans-serif;
+$nunito-sans: 'Nunito Sans', sans-serif;
+$caros-soft: 'Caros Soft', sans-serif;
+$caros-soft-medium: 'Caros Soft Medium', sans-serif;

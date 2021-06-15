@@ -1,0 +1,93 @@
+// Section 1
+.counter-container {
+  position: relative;
+}
+.stats-img {
+  img {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  }
+}
+.counter-stats {
+  display: flex;
+  max-width: 1110px;
+  max-height: 230px;
+  margin: 0 auto;
+  padding: 50px 0;
+  justify-content: space-between;
+}
+
+@property --num {
+  syntax: '<integer>';
+  initial-value: 0;
+  inherits: false;
+}
+
+.stats {
+  color: $text-light;
+  text-align: center;
+  font-family: $nunito;
+  font-weight: 600;
+  font-size: 56px;
+  letter-spacing: 0.15px;
+
+  //   Productivity counter
+  #prod-stats {
+    animation: counter 2s forwards ease-in-out;
+    counter-reset: num var(--num);
+  }
+  #prod-stats::after {
+    content: counter(num);
+  }
+
+  @keyframes counter {
+    from {
+      --num: 0;
+    }
+    to {
+      --num: 15;
+    }
+  }
+
+  //   Cost reduction stats
+  #cost-reduction {
+    animation: counter1 2s forwards ease-in-out;
+    counter-reset: num var(--num);
+  }
+  #cost-reduction::after {
+    content: counter(num);
+  }
+
+  @keyframes counter1 {
+    from {
+      --num: 0;
+    }
+    to {
+      --num: 30;
+    }
+  }
+
+  //   Customer stats
+  #customer-stats {
+    animation: counter2 2s forwards ease-in-out;
+    counter-reset: num var(--num);
+  }
+  #customer-stats::after {
+    content: counter(num);
+  }
+
+  @keyframes counter2 {
+    from {
+      --num: 0;
+    }
+    to {
+      --num: 100;
+    }
+  }
+
+  p {
+    font-weight: 400;
+    font-size: 24px;
+  }
+}

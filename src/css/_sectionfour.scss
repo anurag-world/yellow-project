@@ -1,0 +1,29 @@
+// Section 4
+.deploy-container {
+  display: flex;
+  width: 1110px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+.deploy-logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 255px;
+  height: 235px;
+  border-radius: 4px;
+  box-shadow: 0 1px 4px rgba($color: #3f3f44, $alpha: 0.15);
+  margin-right: 20px;
+  margin-bottom: 20px;
+
+  p {
+    font-family: $nunito-sans;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 22px;
+    letter-spacing: 0.15px;
+    color: $charcoal;
+    margin-top: 16px;
+  }
+}

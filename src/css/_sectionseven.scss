@@ -1,0 +1,41 @@
+// Section 7 - Request a demo
+
+.req-demo {
+  width: 1110px;
+  height: 270px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  margin: 0 auto;
+  text-align: center;
+
+  .req-demo-title {
+    margin-bottom: 40px;
+    h1 {
+      font-family: $caros-soft-medium;
+      font-size: 38px;
+      letter-spacing: 0.25px;
+      color: $text-light;
+    }
+  }
+
+  .req-demo-body {
+    button {
+      width: 240px;
+      height: 60px;
+      border-radius: 4px;
+      background-color: $secondary-color;
+      border: none;
+      box-shadow: 0 1px rgba($color: #3d2f26, $alpha: 0.15);
+      color: $primary-color;
+    }
+  }
+}
+
+.req-demo-vector {
+  background-image: url(../img/vector01.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center 100px;
+}

@@ -1,0 +1,119 @@
+// Resets
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: #707e8a;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+// Font Classes
+
+// Nunito Regular 16
+.nu-rg-16 {
+  font-family: $nunito;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.2;
+  letter-spacing: 0.15px;
+}
+
+// Nunito SemiBold 14
+.nu-sb-14 {
+  font-family: $nunito;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: 0.15px;
+}
+
+// Nunito SemiBold 18
+.nu-sb-18 {
+  font-family: $nunito;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: 0.15px;
+}
+
+// Nunito SemiBold 24
+.nu-sb-24 {
+  font-family: $nunito;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: 0.15px;
+}
+
+// Nunito Bold 18
+.nu-b-18 {
+  font-family: $nunito;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.2;
+  letter-spacing: 0.15px;
+}
+
+// Section Colors
+.section-bg-blue {
+  background-color: #f7fdff;
+}
+.section-bg-primary {
+  background-color: $primary-color;
+}
+.section-bg-light {
+  background-color: $secondary-color;
+}
+
+// Section
+.section-mask {
+  background: url(../img/mask-group.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.section-default {
+  padding: 100px 0;
+}
+
+.section-default-heading {
+  h1 {
+    font-family: $nunito;
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 44px;
+    letter-spacing: 0.15px;
+    text-align: center;
+    color: $charcoal;
+    width: 972px;
+    margin: 0 auto 40px;
+
+    span {
+      color: $text-primary;
+    }
+  }
+}
+
+// Custom Margins
+.mr-16 {
+  margin-right: 16px;
+}
+.mr-24 {
+  margin-right: 24px;
+}
+.mr-30 {
+  margin-right: 30px;
+}
+
+// Container
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}

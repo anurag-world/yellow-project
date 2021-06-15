@@ -1,25 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import { Component } from 'react'
+import TopHeader from './components/TopHeader'
+import Nav from './components/Nav'
+import Header from './components/Header'
+import SecOne from './components/SecOne'
+import SecTwo from './components/SecTwo'
+import SecThree from './components/SecThree'
+import SecFour from './components/SecFour'
+import SecFive from './components/SecFive'
+import SecSix from './components/SecSix'
+import SecSeven from './components/SecSeven'
+import Footer from './components/Footer'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      <>
+        <TopHeader />
+        <Nav />
+        <Header />
+        <SecOne />
+
+        <SecTwo />
+
+        <SecThree />
+        <SecFour />
+        <SecFive />
+        <SecSix />
+        <SecSeven />
+        <Footer />
+      </>
+    )
+  }
 }
 
-export default App;
+export default App

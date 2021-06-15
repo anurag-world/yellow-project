@@ -1,0 +1,35 @@
+// Section 5
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  width: 1110px;
+  margin: 0 auto;
+}
+.card {
+  width: 350px;
+  height: 500px;
+  background-color: $secondary-color;
+  border: 1px solid #dfedf5;
+  border-radius: 4px;
+}
+
+.card-img {
+  width: 350px;
+  height: 250px;
+  border-bottom: 1px solid #dfedf5;
+  padding: 20px;
+}
+
+.card-body {
+  padding: 40px 20px;
+
+  .card-title {
+    margin-bottom: 16px;
+    color: $charcoal;
+  }
+
+  .card-text {
+    color: #505862;
+  }
+}

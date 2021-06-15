@@ -1,0 +1,27 @@
+// Section 6
+
+.section-slide {
+  display: flex;
+  width: 1110px;
+  margin: 0 auto;
+}
+
+.slide-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 255px;
+  height: 206px;
+  margin-right: 20px;
+
+  p {
+    color: $charcoal;
+    margin-top: 16px;
+  }
+
+  img {
+    width: 100px;
+    height: 100px;
+  }
+}
