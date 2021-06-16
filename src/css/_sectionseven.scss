@@ -39,3 +39,23 @@
   background-size: contain;
   background-position: center 100px;
 }
+
+// Breakpoint
+@mixin breakpoint($size) {
+  @if $size == maxx {
+    @media (max-width: 1441px) {
+      @content;
+    }
+  } @else if $size == minn {
+    @media (min-width: 1441px) {
+      @content;
+    }
+  }
+}
+
+/* 1440px & above */
+@include breakpoint(minn) {
+  .req-demo-vector {
+    background-position: center 72px;
+  }
+}
