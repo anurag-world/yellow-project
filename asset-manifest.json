@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/yellow-project/static/css/main.06501fd3.chunk.css",
-    "main.js": "/yellow-project/static/js/main.021fd21f.chunk.js",
-    "main.js.map": "/yellow-project/static/js/main.021fd21f.chunk.js.map",
-    "runtime-main.js": "/yellow-project/static/js/runtime-main.959c050a.js",
-    "runtime-main.js.map": "/yellow-project/static/js/runtime-main.959c050a.js.map",
+    "main.css": "/yellow-project/static/css/main.27dc2536.chunk.css",
+    "main.js": "/yellow-project/static/js/main.6e0a831e.chunk.js",
+    "main.js.map": "/yellow-project/static/js/main.6e0a831e.chunk.js.map",
+    "runtime-main.js": "/yellow-project/static/js/runtime-main.b368d123.js",
+    "runtime-main.js.map": "/yellow-project/static/js/runtime-main.b368d123.js.map",
     "static/css/2.40db8681.chunk.css": "/yellow-project/static/css/2.40db8681.chunk.css",
-    "static/js/2.b59b04ae.chunk.js": "/yellow-project/static/js/2.b59b04ae.chunk.js",
-    "static/js/2.b59b04ae.chunk.js.map": "/yellow-project/static/js/2.b59b04ae.chunk.js.map",
-    "static/js/3.7c5c8922.chunk.js": "/yellow-project/static/js/3.7c5c8922.chunk.js",
-    "static/js/3.7c5c8922.chunk.js.map": "/yellow-project/static/js/3.7c5c8922.chunk.js.map",
+    "static/js/2.bbcb6862.chunk.js": "/yellow-project/static/js/2.bbcb6862.chunk.js",
+    "static/js/2.bbcb6862.chunk.js.map": "/yellow-project/static/js/2.bbcb6862.chunk.js.map",
+    "static/js/3.41f82ee9.chunk.js": "/yellow-project/static/js/3.41f82ee9.chunk.js",
+    "static/js/3.41f82ee9.chunk.js.map": "/yellow-project/static/js/3.41f82ee9.chunk.js.map",
     "index.html": "/yellow-project/index.html",
     "static/css/2.40db8681.chunk.css.map": "/yellow-project/static/css/2.40db8681.chunk.css.map",
-    "static/css/main.06501fd3.chunk.css.map": "/yellow-project/static/css/main.06501fd3.chunk.css.map",
-    "static/js/2.b59b04ae.chunk.js.LICENSE.txt": "/yellow-project/static/js/2.b59b04ae.chunk.js.LICENSE.txt",
+    "static/css/main.27dc2536.chunk.css.map": "/yellow-project/static/css/main.27dc2536.chunk.css.map",
+    "static/js/2.bbcb6862.chunk.js.LICENSE.txt": "/yellow-project/static/js/2.bbcb6862.chunk.js.LICENSE.txt",
     "static/media/ai.d0a0096e.svg": "/yellow-project/static/media/ai.d0a0096e.svg",
     "static/media/app.scss": "/yellow-project/static/media/mask-group.9a6e8580.png",
     "static/media/data.4bfd895d.jpg": "/yellow-project/static/media/data.4bfd895d.jpg",
@@ -22,10 +22,10 @@
     "static/media/search.e7aa7afc.svg": "/yellow-project/static/media/search.e7aa7afc.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.959c050a.js",
+    "static/js/runtime-main.b368d123.js",
     "static/css/2.40db8681.chunk.css",
-    "static/js/2.b59b04ae.chunk.js",
-    "static/css/main.06501fd3.chunk.css",
-    "static/js/main.021fd21f.chunk.js"
+    "static/js/2.bbcb6862.chunk.js",
+    "static/css/main.27dc2536.chunk.css",
+    "static/js/main.6e0a831e.chunk.js"
   ]
 }
