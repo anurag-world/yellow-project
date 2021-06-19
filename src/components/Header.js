@@ -1,11 +1,18 @@
+import styled from 'styled-components'
 import dataImg from '../img/data.jpg'
 import playImg from '../img/play.png'
 
-const Header = () => {
+const HeaderContainer = styled.div`
+  display: flex;
+  justify-content: center;
+  padding: 20px 0 40px;
+`
+
+export const Header = () => {
   return (
     <header className="section-mask">
       <div className="container">
-        <div className="header">
+        <HeaderContainer>
           <div className="header-text">
             <h1>
               Convert unstructured data to{' '}
@@ -26,10 +33,8 @@ const Header = () => {
               <img src={playImg} alt="Play Button" />
             </div>
           </div>
-        </div>
+        </HeaderContainer>
       </div>
     </header>
   )
 }
-
-export default Header

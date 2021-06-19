@@ -31,7 +31,7 @@ const SlideRightDiv = styled.div`
   animation: 1.5s ${slideInRightDiv};
 `
 
-const SecFive = () => {
+export const SecFive = () => {
   return (
     <section className="section-bg-blue">
       <div className="container">
@@ -119,5 +119,3 @@ const SecFive = () => {
     </section>
   )
 }
-
-export default SecFive

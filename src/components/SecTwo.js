@@ -64,7 +64,7 @@ const AccordionDetails = withStyles((theme) => ({
   },
 }))(MuiAccordionDetails)
 
-const SecTwo = () => {
+export const SecTwo = () => {
   const [expanded, setExpanded] = React.useState('panel1')
 
   const handleChange = (panel) => (event, newExpanded) => {
@@ -206,5 +206,3 @@ const SecTwo = () => {
     </section>
   )
 }
-
-export default SecTwo

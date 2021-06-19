@@ -12,7 +12,7 @@ const carousel = {
   margin: '0 auto',
 }
 
-const SecSix = () => {
+export const SecSix = () => {
   return (
     <section className="container">
       <div className="section-default">
@@ -70,5 +70,3 @@ const SecSix = () => {
     </section>
   )
 }
-
-export default SecSix

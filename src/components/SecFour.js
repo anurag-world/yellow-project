@@ -16,7 +16,7 @@ const ZoomDiv = styled.div`
   animation: 1.5s ${zoomInDiv};
 `
 
-const SecFour = () => {
+export const SecFour = () => {
   return (
     <section className="container">
       <div className="section-default">
@@ -73,5 +73,3 @@ const SecFour = () => {
     </section>
   )
 }
-
-export default SecFour

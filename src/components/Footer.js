@@ -9,7 +9,7 @@ import InstagramIcon from '@material-ui/icons/Instagram'
 import YouTubeIcon from '@material-ui/icons/YouTube'
 import LinkedInIcon from '@material-ui/icons/LinkedIn'
 
-const Footer = () => {
+export const Footer = () => {
   return (
     <div className="container">
       <div className="footer-container">
@@ -303,5 +303,3 @@ const Footer = () => {
     </div>
   )
 }
-
-export default Footer

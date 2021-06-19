@@ -1,6 +1,6 @@
 import trees from '../img/trees.png'
 
-const SecOne = () => {
+export const SecOne = () => {
   return (
     <section className="section-bg-primary">
       <div className="container">
@@ -38,5 +38,3 @@ const SecOne = () => {
     </section>
   )
 }
-
-export default SecOne

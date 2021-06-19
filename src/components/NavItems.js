@@ -1,42 +1,56 @@
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore'
+import styled from 'styled-components'
 
-const NavItems = () => {
+const Navbar = styled.div`
+  display: flex;
+`
+const NavItemsContainer = styled.div``
+
+const Button = styled.button`
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  color: #384248;
+  font-family: 'Nunito', sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0.15px;
+  margin-right: 16px;
+`
+
+export const NavItems = () => {
   return (
-    <div className="navbar">
-      <div className="nav-items">
-        <button>
-          <span>Why yellow.ai?</span> <ExpandMoreIcon />
-        </button>
-      </div>
-      <div className="nav-items">
-        <button>
-          <span>Platform</span>
-          <ExpandMoreIcon />
-        </button>
-      </div>
+    <Navbar>
+      <NavItemsContainer>
+        <Button>
+          Why yellow.ai? <ExpandMoreIcon style={{ marginLeft: 5 }} />
+        </Button>
+      </NavItemsContainer>
+      <NavItemsContainer>
+        <Button>
+          Platform <ExpandMoreIcon style={{ marginLeft: 5 }} />
+        </Button>
+      </NavItemsContainer>
 
-      <div className="nav-items">
-        <button>
-          <span>Solutions</span>
-          <ExpandMoreIcon />
-        </button>
-      </div>
+      <NavItemsContainer>
+        <Button>
+          Solutions <ExpandMoreIcon style={{ marginLeft: 5 }} />
+        </Button>
+      </NavItemsContainer>
 
-      <div className="nav-items">
-        <button>
-          <span>Resources</span>
-          <ExpandMoreIcon />
-        </button>
-      </div>
+      <NavItemsContainer>
+        <Button>
+          Resources <ExpandMoreIcon style={{ marginLeft: 5 }} />
+        </Button>
+      </NavItemsContainer>
 
-      <div className="nav-items">
-        <button>
-          <span>Company</span>
-          <ExpandMoreIcon />
-        </button>
-      </div>
-    </div>
+      <NavItemsContainer>
+        <Button>
+          Company <ExpandMoreIcon style={{ marginLeft: 5 }} />
+        </Button>
+      </NavItemsContainer>
+    </Navbar>
   )
 }
-
-export default NavItems

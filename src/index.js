@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom'
 import './css/app.scss'
 import '../node_modules/flickity/dist/flickity.css'
 import '../node_modules/flickity/dist/flickity.pkgd'
-import App from './App'
+import { App } from './App'
 import reportWebVitals from './reportWebVitals'
 
 ReactDOM.render(

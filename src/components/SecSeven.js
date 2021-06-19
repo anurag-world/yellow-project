@@ -1,4 +1,4 @@
-const SecSeven = () => {
+export const SecSeven = () => {
   return (
     <div className="section-bg-primary">
       <div className="req-demo-vector">
@@ -14,5 +14,3 @@ const SecSeven = () => {
     </div>
   )
 }
-
-export default SecSeven

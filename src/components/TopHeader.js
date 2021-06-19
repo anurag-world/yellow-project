@@ -1,4 +1,4 @@
-const TopHeader = () => {
+export const TopHeader = () => {
   return (
     <div className="top">
       <p>#YellowMessengerCares | Fight Covid-19 with a pro-bono chatbot</p>
@@ -6,5 +6,3 @@ const TopHeader = () => {
     </div>
   )
 }
-
-export default TopHeader

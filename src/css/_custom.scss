@@ -112,6 +112,11 @@ button {
   margin-right: 30px;
 }
 
+// Shadow
+.shadow-50 {
+  box-shadow: 0 1px rgba($color: #e9e9e9, $alpha: 0.5);
+}
+
 // Container
 .container {
   max-width: 1440px;
