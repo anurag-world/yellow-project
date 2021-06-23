@@ -1,6 +1,14 @@
+import { useState } from 'react'
 import logo from '../img/logo.png'
 import { NavItems } from './NavItems'
 import styled from 'styled-components'
+import Button from '@material-ui/core/Button'
+import TextField from '@material-ui/core/TextField'
+import Dialog from '@material-ui/core/Dialog'
+import DialogActions from '@material-ui/core/DialogActions'
+import DialogContent from '@material-ui/core/DialogContent'
+import DialogContentText from '@material-ui/core/DialogContentText'
+import DialogTitle from '@material-ui/core/DialogTitle'
 
 const NavbarContainer = styled.div`
   display: flex;
@@ -24,6 +32,16 @@ const NavButton = styled.button`
   min-height: 40px;
 `
 export const Nav = () => {
+  const [open, setOpen] = useState(false)
+
+  const handleClickOpen = () => {
+    setOpen(true)
+  }
+
+  const handleClose = () => {
+    setOpen(false)
+  }
+
   return (
     <div className="section-bg-blue shadow-50">
       <div className="container">
@@ -32,7 +50,35 @@ export const Nav = () => {
             <img src={logo} alt="logo" />
           </div>
           <NavItems />
-          <NavButton>Request a demo</NavButton>
+          <NavButton onClick={handleClickOpen}>Request a demo</NavButton>
+          <Dialog
+            open={open}
+            onClose={handleClose}
+            aria-labelledby="form-dialog-title"
+          >
+            <DialogTitle id="form-dialog-title">Request a demo</DialogTitle>
+            <DialogContent>
+              <DialogContentText>
+                To request a demo please fill the form below!
+              </DialogContentText>
+              <TextField
+                autoFocus
+                margin="dense"
+                id="name"
+                label="Email Address"
+                type="email"
+                fullWidth
+              />
+            </DialogContent>
+            <DialogActions>
+              <Button onClick={handleClose} color="primary">
+                Cancel
+              </Button>
+              <Button variant="contained" onClick={handleClose} color="primary">
+                Subscribe
+              </Button>
+            </DialogActions>
+          </Dialog>
         </NavbarContainer>
       </div>
     </div>
